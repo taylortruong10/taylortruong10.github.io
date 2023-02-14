@@ -116,3 +116,16 @@ ul#footer {
     padding-top: 0%;
     text-align: center;
 }
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 800px) {
+    .column { 
+    width: 33.33%; float: left; margin: 10%;
+    }
+    body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(198, 186, 247);
+    color: rgb(21, 4, 24);
+    }
+}
