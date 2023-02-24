@@ -1,0 +1,74 @@
+* {margin: 0; padding: 0;}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 29, 30);
+    color: rgb(255, 255, 204);
+}
+
+/* NAV */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+    white-space: nowrap;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    color:rgb(3, 225, 147)
+}
+
+h3 {
+    color: white
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(222, 194, 157)
+}
+
+/* visited link */
+a:visited {
+    color: rgb(222, 194, 157)
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(164, 255, 216)
+}
+
+/* ROWS */
+.row {
+    padding: 1rem;
+}
+
+.three {
+    padding-top: 6rem;
+}
+
+.four {
+    padding-top: 6rem;
+    text-align: right;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: white
+}
