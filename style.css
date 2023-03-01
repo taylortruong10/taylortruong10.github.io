@@ -1,0 +1,105 @@
+* {margin: 0; padding: 0;}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(0, 29, 30);
+    color: rgb(255, 255, 204);
+}
+
+/* NAV */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+    white-space: nowrap;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 2%;
+    color:rgb(3, 225, 147)
+}
+
+h3 {
+    color: white
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(222, 194, 157)
+}
+
+/* visited link */
+a:visited {
+    color: rgb(222, 194, 157)
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(164, 255, 216)
+}
+
+/* ROWS */
+.row {
+    padding: 4rem;
+}
+
+.three {
+    padding-top: 6rem;
+}
+
+.four {
+    padding-top: 6rem;
+    text-align: right;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 30%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: white
+}
+
+/* TRANSITION */
+.transition {
+    width: 100px;
+    height: 100px;
+    background: rgb(153, 141, 255);
+    transition: width 2s;
+  }
+  
+.transition:hover {
+    width: 300px;
+  }
+
+  /* ANIMATION */
+ .animation {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 255);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color: rgb(0, 255, 17);}
+    25%  {background-color: rgb(0, 238, 255);}
+    50%  {background-color: rgb(255, 145, 0);}
+    100% {background-color: rgb(255, 4, 226);}
+  }
