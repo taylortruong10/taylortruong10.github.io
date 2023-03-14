@@ -1,0 +1,701 @@
+/* Banner */
+.bannerimg {
+    position: relative;
+    display: block;
+}
+
+.bannerimg1 {
+    position: relative;
+    top: 200px;
+    left: 18%;
+    width: 60%;
+    height: auto;
+    z-index: 1;
+    animation: moveUpDown 2s infinite alternate;
+}
+
+.bannerimg2 {
+    margin-top: -600px;
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 3;
+}
+
+.bannertxt {
+    font-size: 20px;
+    position: relative;
+    width: 700px;
+    left: 20px;
+    margin-top: -450px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    z-index: 2;
+}
+
+/* Who is Virgil */
+.whoisvirgilimg {
+    width: 600px;
+    height: auto;
+}
+
+.whoisvirgiltxt {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 60%;
+    margin-top: 27%;
+    font-size: 20px;
+}
+
+.whoisvirgiltxt2 {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.whoisvirgiltxt3 {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.whoisvirgiltxt4 {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.whoisvirgiltxt5 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* Lecture */
+.slice1 {
+    padding-top: 10%;
+    width: 105%;
+    transform: rotate(5deg);
+}
+
+.twelve {
+    overflow: hidden;
+    object-fit: contain;
+}
+
+#overflow {
+    height: 400px;
+}
+
+.virgiltm {
+    position: relative;
+    max-width: 60%;
+    padding: 20%;
+    margin-top: -250px;
+}
+
+.lecture {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 60%;
+    margin-top: -270px;
+}
+
+.lecture2 {
+    font-size: 23px;
+    width: 60%;
+    font-weight: bolder;
+}
+
+.slice2 {
+    padding-top: 7%;
+    width: 130%;
+    margin-left: -50px;
+    transform: rotate(-5deg);
+}
+
+/* Personal Design Language */
+.personal {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.personal1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.personal2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.personal3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: -50px;
+}
+
+/* Section 1 */
+.section1txt {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#fountain {
+    margin-top: 80px;
+}
+
+#duchamp {
+    margin-left: -300px;
+    animation: moveUpDown 2s infinite alternate;
+}
+
+#owshoe {
+    text-align: center;
+    margin-top: -200px;
+}
+
+#courtsneaker {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -230px;
+}
+
+.section1quote {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -100px;
+}
+
+/* Section 2 */
+#fos {
+    animation: moveUpDown 2s infinite alternate;
+    margin-top: 20px;
+}
+
+.figuresofspeech {
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#canary {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section2quote {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+/* Section 3 */
+#owaf1 {
+    text-align: center;
+    margin-top: -300px;
+}
+
+#nikecollab {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -200px;
+}
+
+.section3quote {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: -60px;
+}
+
+#threeper {
+    animation: moveUpDown 2s infinite alternate;
+    margin-left: -300px;
+    margin-top: -40px;
+}
+
+/* Section 4 */
+#scribshoe {
+    margin-top: 50px;
+}
+
+#scribble {
+    margin-left: -35%;
+    animation: moveUpDown 2s infinite alternate;
+}
+
+#pyrex {
+    margin-top: -200px;
+}
+
+#firstfounded {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -130px;
+}
+
+.section4quote {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* Section 5 */
+.section5txt {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 100%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+#zig {
+    animation: moveUpDown 2s infinite alternate;
+}
+
+#zigzag {
+    text-align: center;
+}
+
+#aj {
+    text-align: center;
+    margin-top: 8%;
+}
+
+#jordanwip {
+    margin-top: 50px;
+}
+
+#half {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.image-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+  
+  .image-container:hover {
+    opacity: 1;
+}
+
+/* Section 6 */
+#questionmark {
+    width: 70%;
+    margin-left: -30%;
+}
+
+#doweneed {
+    margin-top: 40px;
+    animation: moveUpDown 2s infinite alternate;
+}
+
+/* Section 7 */
+#ikea {
+    animation: moveUpDown 2s infinite alternate;
+    margin-top: 20px;
+}
+
+#ikeako {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#ikealast {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section7txt {
+    font-family: 'IBM Plex Mono', monospace;
+    width: 100%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: rgb(169, 72, 20)
+}
+
+/* CSS Animation 2 */
+@keyframes moveUpDown {
+    0% {
+      transform: translate(0%, -0%);
+    }
+    100% {
+      transform: translate(0%, -2%);
+    }
+}
+
+/* Media Query */
+@media (max-width: 450px) {
+
+    .image-container {
+        opacity: 1;
+    }
+      
+      .image-container:hover {
+        opacity: 1;
+    }
+
+    .bannerimg2 {
+    position: relative;
+    width: 200%;
+    left: -180px;
+    margin-top: -170px;
+    }
+
+    .bannertxt {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: 500px;
+    }
+
+    .whoisvirgilimg {
+    position: relative;
+    width: 80%;
+    margin-top: 280px;
+    }
+
+    .whoisvirgiltxt {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -130px;
+    left: 50px;
+    }
+
+    .whoisvirgiltxt2 {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -130px;
+    left: 50px;
+    }
+
+    .whoisvirgiltxt3 {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -130px;
+    left: 50px;
+    }
+
+    .whoisvirgiltxt4 {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -130px;
+    left: 50px;
+    }
+
+    .whoisvirgiltxt5 {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -130px;
+    left: 50px;
+    }
+
+    .lecture {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: -20px;
+    }
+
+    .lecture2 {
+    font-size: 18px;
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: -20px;
+    }
+
+    .slice2 {
+    position: relative;
+    }
+
+    .personal {
+    font-size: 15px;
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: -250px;
+    }
+
+    .personal1 {
+    font-size: 15px;
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: -250px;
+    }
+
+    .personal2 {
+    font-size: 15px;
+    position: relative;
+    width: 70%;
+    left: 50px;
+    top: -250px;
+    }
+
+    .personal3 {   
+    text-align: center; 
+    font-size: 16px;
+    position: relative;
+    width: 80%;
+    left: 40px;
+    top: -140px;
+    }
+
+    #slice3 {
+    max-height: 500px;
+    margin-top: 0px;
+    }
+
+    .section1txt {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -270px;
+    left: 50px;
+    }
+
+    #duchamp {
+    position: absolute;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -300px;
+    }
+
+    #courtsneaker {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    margin-top: -10px;
+    left: 50px;
+    }
+
+    #owshoe {
+    position: absolute;
+    margin-top: 0px;
+    }
+
+    .section1quote {
+    font-size: 15pt;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 260px;
+    }
+
+    #sliceshoe {
+    margin-top: 30px;
+    }
+
+    #numbertwo {
+    margin-top: 30px;
+    }
+
+    #humor {
+    margin-top: 20px;
+    }
+
+    #fos {
+    position: absolute;
+    margin-top: 80px;
+    width: 70%;
+    margin-left: 50px;
+    }
+
+    #figuresofspeech {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    margin-top: -20px;
+    left: 50px; 
+    }
+
+    #fosshirts {
+    margin-top: 0px;
+    width: 90%;
+    margin-left: 20px;
+    }
+
+    #canary {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    margin-top: 50px;
+    left: 50px;
+    }
+
+    .section2quote {
+    font-size: 15pt;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+    }
+
+    #threeper {
+    margin-left: 50px;
+    width: 70%;
+    margin-top: -250px;
+    }
+
+    #owaf1 {
+    margin-left: 50px;
+    width: 70%;
+    margin-top: 90px;
+    }
+
+    #nikecollab {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    margin-top: -320px;
+    left: 50px;
+    }
+
+    .section3quote {
+    font-size: 15pt;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -10px;
+    }
+
+    #section4p2 {
+    font-size: 16px;
+    position: relative;
+    width: 70%;
+    top: -550px;
+    left: 50px;
+    }
+
+    #scribshoe {
+    margin-top: 200px;
+    }
+
+    #scribble {
+        display: none;
+    }
+
+    #pyrex {
+        margin-top: -300px;
+    }
+
+    #firstfounded {
+        font-size: 16px;
+        position: relative;
+        width: 70%;
+        margin-top: -40px;
+        left: 50px;
+     }
+
+     .section4quote {
+        font-size: 15pt;
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .section5txt {
+        font-size: 16px;
+        position: relative;
+        width: 70%;
+        margin-top: -250px;
+        left: 50px;
+     }   
+
+     #zig {
+        margin-top: 10px;
+     }
+
+     #zigzag {
+        margin-top: 300px;
+     }
+
+     #jordanwip {
+        margin-top: -60%;
+     }
+
+     #half {
+        margin-top: 75%;
+     }
+
+     #questionmark {
+        position: absolute;
+        width: 40%;
+        margin-left: 100px;
+        margin-top: -300px;
+    }
+    
+    #doweneed {
+        position: absolute;
+        margin-top: -120px;
+        width: 100%;
+    }
+
+    #balls {
+        margin-top: -580px;
+    }
+
+    #ikea {
+        margin-top: 200px;
+    }
+
+    #keepoff {
+        margin-top: 100px;
+    }
+
+    #ikeako {
+        margin-top: -100px;
+    }
+
+    #ikealast {
+        margin-top: 300px;
+    }
+
+    .section7txt {
+        font-size: 16px;
+        position: relative;
+        width: 70%;
+        left: 50px;
+        margin-top: 50px;
+    }
+
+    footer {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
